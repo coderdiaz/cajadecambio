@@ -1,0 +1,13 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', ;
+    font-family: 'Roboto Slab', serif;
+}
+
+.flex{
+    display: flex;
+    width: 60%;
+    margin-top: 3em;
+    flex-direction: column;
+}
