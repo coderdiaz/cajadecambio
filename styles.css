@@ -21,4 +21,11 @@ body{
 
 .half{
     flex:1;
+    margin-right: 40px;
+}
+
+h1{
+   color: #616161;
+   font-size: 38px;
+   font-weight: 500;
 }

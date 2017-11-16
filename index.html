@@ -29,30 +29,40 @@
                 <form>
               <div class="row flex-row">
                     <div class="input-field half">
-                      <input id="inputA" type="text" class="validate">
-                      <label for="inputA">Etiqueta Moneda A</label>
+                      <input id="inputA" type="number" class="validate">
+                      <label for="inputA">Cantidad de </label>
                      
                     </div>
                     <div class="half"> 
                     <select id="selectA">
-                            <option value="" disabled selected>Escoge tu moneda</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
+                            <option value="MXN" selected>MXN</option>
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="BTC">BTC</option>
+                            <option value="LTC">LTC</option>
+                            <option value="ETH">ETH</option>
+                            <option value="ZEC">ZEC</option>
+                            <option value="XRP">XRP</option>
+                            <option value="XMR">XMR</option>
                         </select>
                     </div>
                 </div>
                 <div class="row flex-row">
                     <div class="input-field half">
-                      <input id="inputB" type="text" class="validate">
-                      <label for="inputB">Etiqueta Moneda B</label>
+                      <input id="inputB" type="number" class="validate">
+                      <label for="inputB">Cantidad de</label>
                     </div>
                     <div class="half">
-                            <select id="selectA">
-                                    <option value="" disabled selected>Escoge tu moneda</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
+                            <select id="selectB">
+                                <option value="MXN">MXN</option>
+                                <option value="USD">USD</option>
+                                <option value="EUR">EUR</option>
+                                <option value="BTC" selected>BTC</option>
+                                <option value="LTC">LTC</option>
+                                <option value="ETH">ETH</option>
+                                <option value="ZEC">ZEC</option>
+                                <option value="XRP">XRP</option>
+                                <option value="XMR">XMR</option>
                                 </select>
                             </div>
                         </div>
@@ -65,5 +75,6 @@
       $(document).ready(function () {
             $('select').material_select();
         });</script>
+        <script src="exchanger.js"> </script>
 </body>
 </html>
